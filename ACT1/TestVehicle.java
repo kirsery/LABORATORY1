@@ -12,7 +12,7 @@ public class TestVehicle {
         String carBrand = scanner.nextLine();
         System.out.print("Speed (km/h): ");
         int carSpeed = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         System.out.print("Fuel Type: ");
         String carFuelType = scanner.nextLine();
         System.out.print("Number of Doors: ");
@@ -28,7 +28,7 @@ public class TestVehicle {
         String motorcycleBrand = scanner.nextLine();
         System.out.print("Speed (km/h): ");
         int motorcycleSpeed = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
         System.out.print("Fuel Type: ");
         String motorcycleFuelType = scanner.nextLine();
         System.out.print("Has Sidecar (true/false): ");
